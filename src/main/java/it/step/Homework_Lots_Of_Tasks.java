@@ -1,4 +1,4 @@
-package src.main.java.it.step;
+package it.step;
 
 import java.util.Arrays;
 
@@ -24,7 +24,7 @@ public class Homework_Lots_Of_Tasks {
         System.out.println ("Задание4. Проверка строки на палиндром. Результат: " + isPalindrome(str4));
 
         // Задание 5. Факториал числа
-        int n5 = 5;
+        int n5 = 3;
         System.out.println ("Задание5. Факториал числа. Результат: " + factorial(n5));
 
         // Задание 7. Поиск числа Фибоначчи
