@@ -5,34 +5,34 @@ import java.util.Arrays;
 public class Homework_Lots_Of_Tasks {
     public static void main(String[] args) {
 
-        // Задание 1. Линейный поиск.
+        // Задание 1.   Линейный поиск.
         int [] array1 = {1, 2, 3, 4, 5};
         int target1 = 4;
         System.out.println ("Задание 1. Линейный поиск. Результат: " + linearSearch(array1, target1));
 
-        // Задание 2. Двоичный поиск.
+        // Задание 2. Двоичный поиск
         int [] array2 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int target2 = 5;
         System.out.println ("Задание 2. Двоичный поиск. Результат: " + binarySearch(array2, target2, 0, array2.length - 1));
 
-        // Задание 3. Пузырьковая сортировка.
+        // Задание 3. Пузырьковая сортировка
         int [] array3 = {5, 2, 8, 4, 9};
         System.out.println ("Задание 3. Пузырьковая сортировка. Результат: " + Arrays.toString(bubbleSort(array3)));
 
-        // Задание 4. Проверка строки на палиндром.
+        // Задание 4. Проверка строки на палиндром
         String str4 = "radar";
         System.out.println ("Задание4. Проверка строки на палиндром. Результат: " + isPalindrome(str4));
 
-        // Задание 5. Факториал числа.
+        // Задание 5. Факториал числа
         int n5 = 5;
         System.out.println ("Задание5. Факториал числа. Результат: " + factorial(n5));
 
-        // Задание 7. Поиск числа Фибоначчи.
+        // Задание 7. Поиск числа Фибоначчи
         int n7 = 7;
         System.out.println ("Задание7.1. Поиск числа Фибоначчи с использованием рекурсии. Результат: " + fibonacciRecursive(n7));
         System.out.println ("Задание7.2. Поиск числа Фибоначчи с использованием цикла. Результат: " + fibonacciIterative(n7));
 
-        // Задание 9. Удаление дубликатов из массива.
+        // Задание 9. Удаление дубликатов из массива
         int [] array9 = {2, 3, 3, 5, 5, 7, 2};
         System.out.println ("Задание 9. Удаление дубликатов из массива. Результат: " + Arrays.toString(removeDuplicates(array9)));
     }
